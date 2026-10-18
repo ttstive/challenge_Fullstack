@@ -1,0 +1,20 @@
+[project]
+name = "challenge-fullstack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.5.6",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pip>=26.2.1",
+    "sqlalchemy>=2.1.5",
+]
+
+[project.scripts]
+challenge-fullstack = "challenge_fullstack:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
